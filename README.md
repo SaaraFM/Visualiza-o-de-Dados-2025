@@ -8,7 +8,8 @@ Todas as visualizações usam o utilitário `loadCsv` (`src/utils/csvLoader`) pa
 ### 3.1. Mapa de calor temporal – dia × hora
 Pergunta:
 - Em quais dias e horários a demanda é mais intensa?
-- CSV usado: UberDatasetCleaned.csv
+- CSV usado: UberDatasetCleaned.csv 
+- https://github.com/Geo-y20/Uber-Rides-Data-Analysis
    - Colunas usadas: day, start_hour
 
 
@@ -30,6 +31,7 @@ Componente: `src/components/HeatmapTemporal.jsx` :contentReference[oaicite:1]{in
 Pergunta:
 - Onde há maior concentração de pickups ao longo dos meses?
 - CSV usado:
+- https://www.kaggle.com/datasets/fivethirtyeight/uber-pickups-in-new-york-city
   
   - uber-raw-data-apr14.csv
 
@@ -46,7 +48,7 @@ Pergunta:
     - Colunas usadas: Lat, Lon
       
   GeoJSON para contornos dos bairros:
-
+  - https://www.kaggle.com/datasets/ashioyajotham/nyc-geojson-file/data
   - nyc-zip-code-tabulation-areas-polygons.geojson
 
 Componente: `src/components/MapScatter.jsx` :contentReference[oaicite:0]{index=0}  
@@ -66,7 +68,8 @@ Componente: `src/components/MapScatter.jsx` :contentReference[oaicite:0]{index=0
 ### 3.3. Histograma de duração das corridas
 Pergunta:
 - Como se distribuem as durações das corridas?
-- CSV usado: UberDatasetCleaned.csv
+- CSV usado: UberDatasetCleaned.csv 
+- https://github.com/Geo-y20/Uber-Rides-Data-Analysis
   - Colunas usadas: duration
 
 
